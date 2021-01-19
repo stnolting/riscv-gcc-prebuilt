@@ -1,7 +1,7 @@
 # riscv-gcc-prebuilt
 
+[![Test Toolchains](https://github.com/stnolting/riscv-gcc-prebuilt/workflows/Test%20Toolchains/badge.svg)](https://github.com/stnolting/riscv-gcc-prebuilt/actions)
 [![license](https://img.shields.io/github/license/stnolting/riscv-gcc-prebuilt)](https://github.com/stnolting/riscv-gcc-prebuilt/blob/master/LICENSE)
-[![Test Toolchains](https://github.com/stnolting/riscv-gcc-prebuilt/workflows/Test%20Toolchains/badge.svg)](https://github.com/stnolting/riscv-gcc-prebuilt/tree/main/.github/workflows)
 
 **Prebuilt RISC-V GCC toolchains.** 
 
@@ -10,7 +10,7 @@ using **Ubuntu 20.04 LTS** on a **64-bit x86 machine** (actually on Ubuntu on Wi
 
 :information_source: All toolchains support standard CPU extensions like `C` (compressed instructions) and `M` (hardware multiplier and divider).
 
-:information_source: The [GitHub actions worklflow(s)](https://github.com/stnolting/riscv-gcc-prebuilt/tree/main/.github/workflows) only test the toolchains (using `riscv32-unknown-elf-gcc -v`).
+:information_source: The [GitHub actions worklflow(s)](https://github.com/stnolting/riscv-gcc-prebuilt/actions) only test the toolchains (using `riscv32-unknown-elf-gcc -v`).
 
 :information_source: These prebuilt toolchains are used by the [NEORV32 Processor](https://github.com/stnolting/neorv32) project.
 
