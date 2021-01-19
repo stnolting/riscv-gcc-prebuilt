@@ -17,15 +17,17 @@ using **Ubuntu 20.04 LTS** on a **64-bit x86 machine** (actually on Ubuntu on Wi
 
 ## Available Toolchains
 
-| Toolchain             | Release (tag)    | GCC      | binutils | march   | mabi | clib |
-|:---------------------:|:-----------------|:--------:|:--------:|:-------:|:----:|:----:|
-| `riscv32-unknown-elf` | [rv32i-1.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv32i-1.0.0) | `10.1.0` | `2.34` | `rv32i` | `ilp32`  | newlib |
-| `riscv32-unknown-elf` | [rv32e-1.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv32e-1.0.0) | `10.1.0` | `2.34` | `rv32e` | `ilp32e` | newlib |
+| Toolchain             | Release (tag)    | Download archive | GCC | binutils | march   | mabi | clib |
+|:---------------------:|:-----------------|:-----------------|:---:|:--------:|:-------:|:----:|:----:|
+| `riscv32-unknown-elf` | [rv32i-1.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv32i-1.0.0) | [download](https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32i-1.0.0/riscv32-unknown-elf.gcc-10.1.0.rv32i.ilp32.newlib.tar.gz) | `10.1.0` | `2.34` | `rv32i` | `ilp32`  | newlib |
+| `riscv32-unknown-elf` | [rv32e-1.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv32e-1.0.0) | [download](https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32e-1.0.0/riscv32-unknown-elf.gcc-10.1.0.rv32e.ilp32e.newlib.tar.gz) | `10.1.0` | `2.34` | `rv32e` | `ilp32e` | newlib |
 
 
 ## Downloading
 
-Click on the according **release (tag)** in the table above to download the archive of choice from the [release page](https://github.com/stnolting/riscv-gcc-prebuilt/releases).
+Click on the according **download** link in the table above to directly download the archive of choice from the according [release page](https://github.com/stnolting/riscv-gcc-prebuilt/releases).
+
+https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32i-1.0.0/riscv32-unknown-elf.gcc-10.1.0.rv32i.ilp32.newlib.tar.gz
 
 
 ## Installation
