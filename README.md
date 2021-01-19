@@ -17,8 +17,8 @@ using **Ubuntu 20.04 LTS** on a **64-bit x86 machine** (actually on Ubuntu on Wi
 
 ## Available Toolchains
 
-| Toolchain             | Release (tag)    | GCC      | binutils | march   | mabi | lib |
-|:---------------------:|:-----------------|:--------:|:--------:|:-------:|:----:|:---:|
+| Toolchain             | Release (tag)    | GCC      | binutils | march   | mabi | clib |
+|:---------------------:|:-----------------|:--------:|:--------:|:-------:|:----:|:----:|
 | `riscv32-unknown-elf` | [rv32i-1.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv32i-1.0.0) | `10.1.0` | `2.34` | `rv32i` | `ilp32`  | newlib |
 | `riscv32-unknown-elf` | [rv32e-1.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv32e-1.0.0) | `10.1.0` | `2.34` | `rv32e` | `ilp32e` | newlib |
 
