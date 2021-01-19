@@ -25,7 +25,7 @@ using **Ubuntu 20.04 LTS** on a **64-bit x86 machine** (actually on Ubuntu on Wi
 
 ## Downloading
 
-Click on the according tag in the table above to download the archive of choice from the [release page](https://github.com/stnolting/riscv-gcc-prebuilt/releases).
+Click on the according **release (tag)** in the table above to download the archive of choice from the [release page](https://github.com/stnolting/riscv-gcc-prebuilt/releases).
 
 
 ## Installation
