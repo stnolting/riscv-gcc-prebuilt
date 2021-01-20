@@ -19,10 +19,12 @@ using **Ubuntu 20.04 LTS** on a **64-bit x86 machine** (actually on Ubuntu on Wi
 
 ## Available Toolchains
 
-| Toolchain             | Release (tag)    | Download archive | GCC | binutils | march   | mabi | clib |
-|:---------------------:|:-----------------|:-----------------|:---:|:--------:|:-------:|:----:|:----:|
-| `riscv32-unknown-elf` | [rv32i-1.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv32i-1.0.0) | [download](https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32i-1.0.0/riscv32-unknown-elf.gcc-10.1.0.rv32i.ilp32.newlib.tar.gz) | `10.1.0` | `2.34` | `rv32i` | `ilp32`  | newlib |
-| `riscv32-unknown-elf` | [rv32e-1.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv32e-1.0.0) | [download](https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32e-1.0.0/riscv32-unknown-elf.gcc-10.1.0.rv32e.ilp32e.newlib.tar.gz) | `10.1.0` | `2.34` | `rv32e` | `ilp32e` | newlib |
+Toolchain prefix: `riscv32-unknown-elf`
+
+| Release (tag)    | Download archive | GCC | binutils | march   | mabi | clib |
+|:-----------------|:-----------------|:---:|:--------:|:-------:|:----:|:----:|
+| [rv32i-1.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv32i-1.0.0) | [download](https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32i-1.0.0/riscv32-unknown-elf.gcc-10.1.0.rv32i.ilp32.newlib.tar.gz) (.tar.gz) | `10.1.0` | `2.34` | `rv32i` | `ilp32`  | newlib |
+| [rv32e-1.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv32e-1.0.0) | [download](https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32e-1.0.0/riscv32-unknown-elf.gcc-10.1.0.rv32e.ilp32e.newlib.tar.gz) (.tar.gz) | `10.1.0` | `2.34` | `rv32e` | `ilp32e` | newlib |
 
 
 ## Downloading via Browser
@@ -37,6 +39,8 @@ You use `wget` to directly download a toolchain archive from the table above. Se
     $ wget https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32i-1.0.0/riscv32-unknown-elf.gcc-10.1.0.rv32i.ilp32.newlib.tar.gz
 
 :warning: A `git clone` of the repository will **not** include the relase assets (= the toolchain archives)!
+
+:warning: Download using `wget` might take a while if you are outside the US. Consider [direct downloading](https://github.com/stnolting/riscv-gcc-prebuilt/releases) via your browser.
 
 
 ## Installation
