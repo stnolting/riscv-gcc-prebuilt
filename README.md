@@ -49,7 +49,7 @@ Create a folder where you want to install the toolchain, for example `/opt/riscv
 
     $ sudo mkdir /opt/riscv
 
-Navigate to the download folder. Decompress your toolchain (`TOOLCHAIN` with your toolchain archive of choice). Again, you might have to use `sudo` to copy everything if your target directory is protected.
+Navigate to the download folder. Decompress your toolchain (replace `TOOLCHAIN` with your toolchain archive of choice). Again, you might have to use `sudo` if your target directory is protected.
 
     $ sudo tar -xzf TOOLCHAIN.tar.gz -C /opt/riscv/
 
