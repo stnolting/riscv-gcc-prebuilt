@@ -1,6 +1,7 @@
 # riscv-gcc-prebuilt
 
 [![Test Toolchains](https://github.com/stnolting/riscv-gcc-prebuilt/workflows/Test%20Toolchains/badge.svg)](https://github.com/stnolting/riscv-gcc-prebuilt/actions)
+[![Downloads](https://img.shields.io/github/downloads/stnolting/riscv-gcc-prebuilt/total)](https://github.com/stnolting/riscv-gcc-prebuilt/releases)
 [![license](https://img.shields.io/github/license/stnolting/riscv-gcc-prebuilt)](https://github.com/stnolting/riscv-gcc-prebuilt/blob/master/LICENSE)
 
 **Prebuilt RISC-V GCC toolchains.** 
