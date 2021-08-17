@@ -36,7 +36,7 @@ Click on the according **download** link in the table above to directly download
 
 ## Downloading via Command Line
 
-You use `wget` to directly download a toolchain archive from the table above. Select the toolchain of choice, right-click on the **download** link, click "copy link address" and use that as argument for `wget`. Example:
+You can use `wget` to directly download a toolchain archive from the table above. Select the toolchain of choice, right-click on the **download** link, click "copy link address" and use that as argument for `wget`. Example:
 
     $ wget https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32i-1.0.0/riscv32-unknown-elf.gcc-10.1.0.rv32i.ilp32.newlib.tar.gz
 
