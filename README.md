@@ -6,7 +6,7 @@
 
 **Prebuilt RISC-V GCC toolchains.** 
 
-The toolchains were built according to the instructions on the [official RISC-V GNU Compiler Toolchain page](https://github.com/riscv/riscv-gnu-toolchain)
+The toolchains were built according to the instructions on the [official RISC-V GNU Compiler Toolchain page](https://github.com/riscv-collab/riscv-gnu-toolchain)
 using **Ubuntu 20.04 LTS** on a **64-bit x86 machine** (actually on Ubuntu on Windows). The compressed toolchain archives are available as [releases](https://github.com/stnolting/riscv-gcc-prebuilt/releases) only.
 
 :warning: The toolchain were build using the RISC-V extension configuration from the `march` column below. Keep in mind that – for instance – a `rv32imc` toolchain only provides library code compiled with compressed and `mul`/`div` instructions! Hence, this code cannot be executed (without emulation) on an architecture without these extensions! In contrast, a `rv32i` toolchain only reuqires the RISC-V `I` extension.
