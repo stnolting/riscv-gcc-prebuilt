@@ -1,7 +1,6 @@
 # riscv-gcc-prebuilt
 
 [![Test Toolchains](https://github.com/stnolting/riscv-gcc-prebuilt/workflows/Test%20Toolchains/badge.svg)](https://github.com/stnolting/riscv-gcc-prebuilt/actions)
-[![Downloads](https://img.shields.io/github/downloads/stnolting/riscv-gcc-prebuilt/total)](https://github.com/stnolting/riscv-gcc-prebuilt/releases)
 [![license](https://img.shields.io/github/license/stnolting/riscv-gcc-prebuilt)](https://github.com/stnolting/riscv-gcc-prebuilt/blob/master/LICENSE)
 [![Gitter](https://img.shields.io/badge/Chat-on%20gitter-4db797.svg?longCache=true&logo=gitter&logoColor=e8ecef)](https://gitter.im/neorv32/community)
 
