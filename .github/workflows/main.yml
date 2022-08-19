@@ -29,4 +29,4 @@ jobs:
 
       # Setup system env variables
       - name: '▶️ Check Toolchains'
-        run: /bin/bash -c "chmod u+x $GITHUB_WORKSPACE/.ci/test.sh && $GITHUB_WORKSPACE/.ci/test.sh"
+        run: /bin/bash -c "chmod u+x $GITHUB_WORKSPACE/test.sh && $GITHUB_WORKSPACE/test.sh"
