@@ -3,13 +3,10 @@
 # Abort if any command returns != 0
 set -e
 
-# Just TEST the available toolchain versions
-TOOLCHAIN=riscv32-unknown-elf
-
 # Decompress and test
 echo ""
 
-# Toolchain to be used
+TOOLCHAIN=riscv32-unknown-elf
 RELEASE=rv32e-1.0.0
 TEST=riscv32-unknown-elf.gcc-10.1.0.rv32e.ilp32e.newlib
 echo "Testing $RELEASE : $TEST/$TOOLCHAIN..."
@@ -21,6 +18,7 @@ $GITHUB_WORKSPACE/$TEST.tmp/bin/$TOOLCHAIN-gcc -v
 
 echo ""
 
+TOOLCHAIN=riscv32-unknown-elf
 RELEASE=rv32i-2.0.0
 TEST=riscv32-unknown-elf.gcc-10.2.0.rv32i.ilp32.newlib
 echo "Testing $RELEASE : $TEST/$TOOLCHAIN..."
@@ -32,6 +30,7 @@ $GITHUB_WORKSPACE/$TEST.tmp/bin/$TOOLCHAIN-gcc -v
 
 echo ""
 
+TOOLCHAIN=riscv64-unknown-elf
 RELEASE=rv64imc-3.0.0
 TEST=riscv64-unknown-elf.gcc-12.1.0
 echo "Testing $RELEASE : $TEST/$TOOLCHAIN..."
