@@ -1,4 +1,4 @@
-# Prebuilt RISC-V GCC toolchains
+# Prebuilt RISC-V GCC Toolchains for Linux
 
 [![Test Toolchains](https://github.com/stnolting/riscv-gcc-prebuilt/workflows/Test%20Toolchains/badge.svg)](https://github.com/stnolting/riscv-gcc-prebuilt/actions)
 [![license](https://img.shields.io/github/license/stnolting/riscv-gcc-prebuilt)](https://github.com/stnolting/riscv-gcc-prebuilt/blob/master/LICENSE)
@@ -6,24 +6,30 @@
 
 The toolchains were built according to the instructions of the
 [official RISC-V GNU Compiler Toolchain repository](https://github.com/riscv-collab/riscv-gnu-toolchain)
-using **Ubuntu 20.04 LTS** on a **64-bit x86 machine** (actually on Ubuntu on Windows). The compressed toolchain archives
-are available as [releases](https://github.com/stnolting/riscv-gcc-prebuilt/releases) assets.
+using **Ubuntu** on a **64-bit x86 machine** (actually on Ubuntu on Windows).
+Most of the provided toolchains (the non-multilib version) also support standard ISA extensions like `a`, `c` and `m`.
 
-These prebuilt toolchains are used by the [NEORV32 RISC-V Processor](https://github.com/stnolting/neorv32) project.
+:warning: Cloning this repository will **not** include the release assets - so it will **not include the actual toolchain archives**!
+The compressed toolchain archives are available as [releases](https://github.com/stnolting/riscv-gcc-prebuilt/releases) assets.
+Please see the instructions in the [Download](#Download) and [Installation](#Installation) sections.
+
+:rocket: These prebuilt toolchains are used by the [NEORV32 RISC-V Processor](https://github.com/stnolting/neorv32) project.
 
 
 ## Available Toolchains
 
-Toolchain prefix: `riscv32-unknown-elf` or `riscv64-unknown-elf`
+Toolchain prefix: `riscv32-unknown-elf` or `riscv64-unknown-elf` (see the individual releases)
 
-| Release (tag)    | Download archive | GCC | binutils | march   | mabi | clib |
-|:-----------------|:-----------------|:---:|:--------:|:-------:|:----:|:----:|
-| :heavy_check_mark: [rv64imc-3.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv64imc-3.0.0) | [:floppy_disk: download](https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv64imc-3.0.0/riscv64-unknown-elf.gcc-12.1.0.tar.gz) (.tar.gz) | `12.1.0` | `2.39` | multilib: `rv32i`, `rv32ic`, `rv32im`, `rv32imc` | `ilp32`  | `newlib` |
-| :x: [rv32i-2.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv32i-2.0.0) | [:floppy_disk: download](https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32i-2.0.0/riscv32-unknown-elf.gcc-10.2.0.rv32i.ilp32.newlib.tar.gz) (.tar.gz) | `10.2.0` | `2.35` | `rv32i` | `ilp32`  | `newlib` |
-| :x: [rv32e-1.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv32e-1.0.0) | [:floppy_disk: download](https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32e-1.0.0/riscv32-unknown-elf.gcc-10.1.0.rv32e.ilp32e.newlib.tar.gz) (.tar.gz) | `10.1.0` | `2.34` | `rv32e` | `ilp32e` | `newlib` |
+| Release (tag)    | Download archive | GCC | binutils | `march` | `mabi` | c-lib |
+|:-----------------|:-----------------|:---:|:--------:|:-------:|:------:|:-----:|
+| :green_circle: [rv32i-4.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv32i-4.0.0) | [:floppy_disk: download](https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32i-4.0.0/riscv32-unknown-elf.gcc-12.1.0.tar.gz) (.tar.gz) | `12.1.0` | `2.39` | `rv32i` | `ilp32` | `newlib` |
+| :green_circle: [rv64imc-3.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv64imc-3.0.0) | [:floppy_disk: download](https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv64imc-3.0.0/riscv64-unknown-elf.gcc-12.1.0.tar.gz) (.tar.gz) | `12.1.0` | `2.39` | multilib: `rv32i`, `rv32ic`, `rv32im`, `rv32imc` | `ilp32` | `newlib` |
+| :yellow_circle: [rv32i-2.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv32i-2.0.0) | [:floppy_disk: download](https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32i-2.0.0/riscv32-unknown-elf.gcc-10.2.0.rv32i.ilp32.newlib.tar.gz) (.tar.gz) | `10.2.0` | `2.35` | `rv32i` | `ilp32` | `newlib` |
+| :red_circle: [rv32e-1.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv32e-1.0.0) | [:floppy_disk: download](https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32e-1.0.0/riscv32-unknown-elf.gcc-10.1.0.rv32e.ilp32e.newlib.tar.gz) (.tar.gz) | `10.1.0` | `2.34` | `rv32e` | `ilp32e` | `newlib` |
 
-* :heavy_check_mark: most recent
-* :x: outdated
+* :green_circle: most recent
+* :yellow_circle: outdated
+* :red_circle: deprecated
 
 
 ## Download
@@ -38,9 +44,7 @@ from the according [release page](https://github.com/stnolting/riscv-gcc-prebuil
 You can use `wget` to directly download a toolchain archive from the table above. Select the toolchain of
 choice, right-click on the **download** link, click "copy link address" and use that as argument for `wget`. Example:
 
-    $ wget https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32i-1.0.0/riscv32-unknown-elf.gcc-10.1.0.rv32i.ilp32.newlib.tar.gz
-
-:warning: A `git clone` of the repository will **not** include the release assets so it will **not include the actual toolchain archives**!
+    $ wget https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/$RELEASE/$ARCHIVE.tar.gz
 
 
 ## Installation
