@@ -7,7 +7,7 @@
 The toolchains were built according to the instructions of the
 [official RISC-V GNU Compiler Toolchain repository](https://github.com/riscv-collab/riscv-gnu-toolchain)
 using **Ubuntu** on a **64-bit x86 machine** (actually on Ubuntu on Windows).
-Most of the provided toolchains (the non-multilib version) also support standard ISA extensions like `a`, `c` and `m`.
+Most of the provided toolchains (mianly the non-multilib versions) also support standard ISA extensions like `a`, `c` and `m`.
 
 :warning: Cloning this repository will **not** include the release assets - so it will **not include the actual toolchain archives**!
 The compressed toolchain archives are available as [releases](https://github.com/stnolting/riscv-gcc-prebuilt/releases) assets.
