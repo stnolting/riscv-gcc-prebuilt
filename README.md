@@ -35,9 +35,9 @@ Toolchain prefix: `riscv32-unknown-elf` or `riscv64-unknown-elf` (see the indivi
 
 ## Download
 
-:warning: Cloning (i.e. via `git clone`) this repository will **not** include the release assets - so it will
+:warning: Cloning this repository (via `git clone`)  will **not** include the release assets and will
 **not include the actual toolchain archives**! The compressed toolchain archives (`.tar.gz`) are available as
-[releases](https://github.com/stnolting/riscv-gcc-prebuilt/releases) assets.
+[releases](https://github.com/stnolting/riscv-gcc-prebuilt/releases) _assets_ only.
 
 ### Via Browser
 
@@ -47,9 +47,11 @@ from the according [release page](https://github.com/stnolting/riscv-gcc-prebuil
 ### Via Command Line
 
 You can use `wget` to directly download a toolchain archive from the table above. Select the toolchain of
-choice, right-click on the **download** link, click "copy link address" and use that as argument for `wget`. Example:
+choice, right-click on the "download" link, click "copy link address" and use that as argument for `wget`. Example:
 
-    $ wget https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/$RELEASE/$ARCHIVE.tar.gz
+```bash
+wget https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32i-4.0.0/riscv32-unknown-elf.gcc-12.1.0.tar.gz
+```
 
 [[back to top](#Prebuilt-RISC-V-GCC-Toolchains-for-Linux)]
 
