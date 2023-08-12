@@ -2,7 +2,6 @@
 
 [![Test_Toolchains](https://img.shields.io/github/actions/workflow/status/stnolting/riscv-gcc-prebuilt/main.yml?branch=main&longCache=true&style=flat-square&label=Test%20Toolchains&logo=Github%20Actions&logoColor=fff)](https://github.com/stnolting/riscv-gcc-prebuilt/actions/workflows/main.yml)
 [![license](https://img.shields.io/github/license/stnolting/riscv-gcc-prebuilt?longCache=true&style=flat-square)](https://github.com/stnolting/riscv-gcc-prebuilt/blob/main/LICENSE)
-[![Gitter](https://img.shields.io/badge/Chat-on%20gitter-4db797.svg?longCache=true&style=flat-square&logo=gitter&logoColor=e8ecef)](https://gitter.im/neorv32/community)
 
 * [Available Toolchains](#available-toolchains)
 * [Download](#download)
