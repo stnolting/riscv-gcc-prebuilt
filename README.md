@@ -25,7 +25,7 @@ Toolchain prefix: `riscv32-unknown-elf` or `riscv64-unknown-elf` (see the indivi
 | :yellow_circle: [rv32i-2.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv32i-2.0.0) | [:floppy_disk: download](https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32i-2.0.0/riscv32-unknown-elf.gcc-10.2.0.rv32i.ilp32.newlib.tar.gz) | `10.2.0` | `2.35` | `rv32i` | `ilp32` | `newlib` |
 | :red_circle: [rv32e-1.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv32e-1.0.0) | [:floppy_disk: download](https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32e-1.0.0/riscv32-unknown-elf.gcc-10.1.0.rv32e.ilp32e.newlib.tar.gz) | `10.1.0` | `2.34` | `rv32e` | `ilp32e` | `newlib` |
 
-* :green_circle: most recent
+* :green_circle: active / recommended
 * :yellow_circle: outdated
 * :red_circle: deprecated
 
