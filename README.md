@@ -4,9 +4,9 @@
 [![license](https://img.shields.io/github/license/stnolting/riscv-gcc-prebuilt?longCache=true&style=flat-square)](https://github.com/stnolting/riscv-gcc-prebuilt/blob/main/LICENSE)
 [![Gitter](https://img.shields.io/badge/Chat-on%20gitter-4db797.svg?longCache=true&style=flat-square&logo=gitter&logoColor=e8ecef)](https://gitter.im/neorv32/community)
 
-* [Available Toolchains](#Available-Toolchains)
-* [Download](#Download)
-* [Installation](#Installation)
+* [Available Toolchains](#available-toolchains)
+* [Download](#download)
+* [Installation](#installation)
 
 The toolchains were built according to the instructions of the
 [official RISC-V GNU Compiler Toolchain repository](https://github.com/riscv-collab/riscv-gnu-toolchain)
@@ -30,7 +30,7 @@ Toolchain prefix: `riscv32-unknown-elf` or `riscv64-unknown-elf` (see the indivi
 * :yellow_circle: outdated
 * :red_circle: deprecated
 
-[[back to top](#Prebuilt-RISC-V-GCC-Toolchains-for-Linux)]
+[[back to top]Prebuilt-RISC-V-GCC-Toolchains-for-Linux)]
 
 
 ## Download
@@ -53,7 +53,7 @@ choice, right-click on the "download" link, click "copy link address" and use th
 wget https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32i-4.0.0/riscv32-unknown-elf.gcc-12.1.0.tar.gz
 ```
 
-[[back to top](#Prebuilt-RISC-V-GCC-Toolchains-for-Linux)]
+[[back to top](#prebuilt-risc-v-gcc-toolchains-for-linux)]
 
 
 ## Installation
@@ -93,7 +93,7 @@ Supported LTO compression algorithms: zlib
 gcc version 12.1.0 (g1ea978e3066)
 ```
 
-[[back to top](#Prebuilt-RISC-V-GCC-Toolchains-for-Linux)]
+[[back to top](#prebuilt-risc-v-gcc-toolchains-for-linux)]
 
 
 ## License
@@ -112,4 +112,4 @@ when the links were placed, no infringements of the law were recognizable to us.
 as an infringement of the law becomes known to us, we will immediately remove the
 link in question.
 
-[[back to top](#Prebuilt-RISC-V-GCC-Toolchains-for-Linux)]
+[[back to top](#prebuilt-risc-v-gcc-toolchains-for-linux)]
