@@ -10,7 +10,7 @@
 The toolchains were built according to the instructions of the
 [official RISC-V GNU Compiler Toolchain repository](https://github.com/riscv-collab/riscv-gnu-toolchain)
 using **Ubuntu** on a **64-bit x86 machine** (actually on Ubuntu on Windows).
-Most of the provided toolchains (the non-multilib versions) also support standard ISA extensions like `A`, `C` and `M`.
+The provided toolchains also support standard RISC-V ISA extensions like `A`, `C` and `M`.
 These prebuilt toolchains are part of the [NEORV32 RISC-V Processor](https://github.com/stnolting/neorv32) project.
 
 
