@@ -30,7 +30,7 @@ Status:
 * :yellow_circle: outdated
 * :red_circle: deprecated
 
-[[back to top]Prebuilt-RISC-V-GCC-Toolchains-for-Linux)]
+[[back to top](#prebuilt-risc-v-gcc-toolchains-for-linux)]
 
 
 ## Download
