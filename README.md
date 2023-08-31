@@ -18,13 +18,14 @@ These prebuilt toolchains are part of the [NEORV32 RISC-V Processor](https://git
 
 Toolchain prefix: `riscv32-unknown-elf` or `riscv64-unknown-elf` (see the individual releases)
 
-| Release (tag)    | Download archive | GCC | binutils | `march` | `mabi` | c-lib |
-|:----------------:|:----------------:|:---:|:--------:|:-------:|:------:|:-----:|
-| :green_circle: [rv32i-4.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv32i-4.0.0) | [:floppy_disk: download](https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32i-4.0.0/riscv32-unknown-elf.gcc-12.1.0.tar.gz) | `12.1.0` | `2.39` | `rv32i` | `ilp32` | `newlib` |
-| :red_circle: [rv64imc-3.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv64imc-3.0.0) | [:floppy_disk: download](https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv64imc-3.0.0/riscv64-unknown-elf.gcc-12.1.0.tar.gz) | `12.1.0` | `2.39` | multilib: `rv32i[m][c][c]` | `ilp32` | `newlib` |
-| :yellow_circle: [rv32i-2.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv32i-2.0.0) | [:floppy_disk: download](https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32i-2.0.0/riscv32-unknown-elf.gcc-10.2.0.rv32i.ilp32.newlib.tar.gz) | `10.2.0` | `2.35` | `rv32i` | `ilp32` | `newlib` |
-| :red_circle: [rv32e-1.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv32e-1.0.0) | [:floppy_disk: download](https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32e-1.0.0/riscv32-unknown-elf.gcc-10.1.0.rv32e.ilp32e.newlib.tar.gz) | `10.1.0` | `2.34` | `rv32e` | `ilp32e` | `newlib` |
+| Status | Release (tag) | Download archive | GCC | binutils | `march` | `mabi` | c-lib |
+|:------:|:-------------:|:----------------:|:---:|:--------:|:-------:|:------:|:-----:|
+| :green_circle: | [rv32i-4.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv32i-4.0.0) | [:floppy_disk: download](https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32i-4.0.0/riscv32-unknown-elf.gcc-12.1.0.tar.gz) | `12.1.0` | `2.39` | `rv32i` | `ilp32` | `newlib` |
+| :red_circle: | [rv64imc-3.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv64imc-3.0.0) | [:floppy_disk: download](https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv64imc-3.0.0/riscv64-unknown-elf.gcc-12.1.0.tar.gz) | `12.1.0` | `2.39` | multilib: `rv32i[m][c][c]` | `ilp32` | `newlib` |
+| :yellow_circle: | [rv32i-2.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv32i-2.0.0) | [:floppy_disk: download](https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32i-2.0.0/riscv32-unknown-elf.gcc-10.2.0.rv32i.ilp32.newlib.tar.gz) | `10.2.0` | `2.35` | `rv32i` | `ilp32` | `newlib` |
+| :red_circle: | [rv32e-1.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv32e-1.0.0) | [:floppy_disk: download](https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32e-1.0.0/riscv32-unknown-elf.gcc-10.1.0.rv32e.ilp32e.newlib.tar.gz) | `10.1.0` | `2.34` | `rv32e` | `ilp32e` | `newlib` |
 
+Status:
 * :green_circle: active / recommended
 * :yellow_circle: outdated
 * :red_circle: deprecated
