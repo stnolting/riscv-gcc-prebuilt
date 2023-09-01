@@ -13,6 +13,9 @@ using **Ubuntu** on a **64-bit x86 machine** (actually on Ubuntu on Windows).
 The provided toolchains also support standard RISC-V ISA extensions like `A`, `C` and `M`.
 These prebuilt toolchains are part of the [NEORV32 RISC-V Processor](https://github.com/stnolting/neorv32) project.
 
+ℹ️ Platform-specific instructions for building the toolchain from scratch can be found in the NEORV32 online
+user guide: [NEORV32 UG: Building The Toolchain From Scratch](https://stnolting.github.io/neorv32/ug/#_building_the_toolchain_from_scratch)
+
 
 ## Available Toolchains
 
