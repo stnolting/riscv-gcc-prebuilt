@@ -13,7 +13,7 @@ jobs:
     steps:
 
       - name: '💾 Checkout'
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: '▶️ Check Toolchains'
         run: /bin/bash -c "chmod u+x $GITHUB_WORKSPACE/test.sh && $GITHUB_WORKSPACE/test.sh"
