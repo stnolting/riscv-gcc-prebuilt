@@ -10,11 +10,11 @@
 The toolchains were built according to the instructions of the
 [official RISC-V GNU Compiler Toolchain repository](https://github.com/riscv-collab/riscv-gnu-toolchain)
 using **Ubuntu** on a **64-bit x86 machine** (actually on Ubuntu on Windows).
-The provided toolchains also support standard RISC-V ISA extensions like `A`, `C` and `M`.
+The provided toolchains _support_ all ratified and implemented ISA extensions (e.g. `A` and `Zicsr`).
 These prebuilt toolchains are part of the [NEORV32 RISC-V Processor](https://github.com/stnolting/neorv32) project.
 
-ℹ️ Platform-specific instructions for building the toolchain from scratch can be found in the NEORV32 online
-user guide: [NEORV32 UG: Building The Toolchain From Scratch](https://stnolting.github.io/neorv32/ug/#_building_the_toolchain_from_scratch)
+ℹ️ Platform-specific instructions for building the toolchain from scratch can be found in
+[NEORV32 UG: Building The Toolchain From Scratch](https://stnolting.github.io/neorv32/ug/#_building_the_toolchain_from_scratch)
 
 
 ## Available Toolchains
@@ -27,12 +27,7 @@ Toolchain prefix: `riscv32-unknown-elf` or `riscv64-unknown-elf` (see the indivi
 | :yellow_circle: | [rv32i-4.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv32i-4.0.0) | [:floppy_disk: download](https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32i-4.0.0/riscv32-unknown-elf.gcc-12.1.0.tar.gz) | 12.1.0 | 2.39 | `rv32i` | `ilp32` | newlib |
 | :red_circle: | [rv64imc-3.0.0](https://github.com/stnolting/riscv-gcc-prebuilt/releases/tag/rv64imc-3.0.0) | [:floppy_disk: download](https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv64imc-3.0.0/riscv64-unknown-elf.gcc-12.1.0.tar.gz) | 12.1.0 | 2.39 | multilib: `rv32i[m][c]` | `ilp32` | newlib |
 
-Status:
-* :green_circle: active / recommended
-* :yellow_circle: outdated
-* :red_circle: deprecated
-
-[[back to top](#prebuilt-risc-v-gcc-toolchains-for-linux)]
+:green_circle: active / recommended, :yellow_circle: outdated, :red_circle: deprecated
 
 
 ## Download
@@ -54,8 +49,6 @@ choice, right-click on the "download" link, click "copy link address" and use th
 ```bash
 wget https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/rv32i-4.0.0/riscv32-unknown-elf.gcc-12.1.0.tar.gz
 ```
-
-[[back to top](#prebuilt-risc-v-gcc-toolchains-for-linux)]
 
 
 ## Installation
@@ -95,8 +88,6 @@ Supported LTO compression algorithms: zlib
 gcc version 12.1.0 (g1ea978e3066)
 ```
 
-[[back to top](#prebuilt-risc-v-gcc-toolchains-for-linux)]
-
 
 ## License
 
@@ -113,5 +104,3 @@ is liable for the content and accuracy of the information provided. At the point
 when the links were placed, no infringements of the law were recognizable to us. As soon
 as an infringement of the law becomes known to us, we will immediately remove the
 link in question.
-
-[[back to top](#prebuilt-risc-v-gcc-toolchains-for-linux)]
