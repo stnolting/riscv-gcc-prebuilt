@@ -29,7 +29,7 @@ $GITHUB_WORKSPACE/$ARCHIVE.tmp/bin/$PREFIX-gcc -v
 echo ""
 
 PREFIX=riscv32-unknown-elf
-RELEASE= rv32e-231223 
+RELEASE=rv32e-231223 
 ARCHIVE=riscv32-unknown-elf.gcc-rve-13.2.0
 echo "Checking $RELEASE : $ARCHIVE/$PREFIX..."
 wget https://github.com/stnolting/riscv-gcc-prebuilt/releases/download/$RELEASE/$ARCHIVE.tar.gz
