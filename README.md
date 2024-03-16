@@ -13,7 +13,8 @@ using **Ubuntu** on a **64-bit x86 machine** (actually on Ubuntu on Windows).
 The provided toolchains _support_ all ratified and implemented ISA extensions (e.g. `A` and `Zicsr`).
 These prebuilt toolchains are part of the [NEORV32 RISC-V Processor](https://github.com/stnolting/neorv32) project.
 
-ℹ️ Platform-specific instructions for building the toolchain from scratch can be found in
+> [!NOTE]
+> Platform-specific instructions for building the toolchain from scratch can be found in
 [NEORV32 UG: Building The Toolchain From Scratch](https://stnolting.github.io/neorv32/ug/#_building_the_toolchain_from_scratch)
 
 
@@ -32,7 +33,8 @@ Toolchain prefix: `riscv32-unknown-elf` or `riscv64-unknown-elf` (see the indivi
 
 ## Download
 
-:warning: Cloning this repository (via `git clone`)  will **not** include the release assets and will
+> [!WARNING]
+> Cloning this repository (via `git clone`)  will **not** include the release assets and will
 **not include the actual toolchain archives**! The compressed toolchain archives (`.tar.gz`) are available as
 [releases](https://github.com/stnolting/riscv-gcc-prebuilt/releases) _assets_ only.
 
