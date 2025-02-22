@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> We have switched to the prebuilt RISC-V GCC toolchains provided by [xPack](https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack).
+
 # Prebuilt RISC-V GCC Toolchains for Linux
 
 [![Test_Toolchains](https://img.shields.io/github/actions/workflow/status/stnolting/riscv-gcc-prebuilt/main.yml?branch=main&longCache=true&style=flat-square&label=Test%20Toolchains&logo=Github%20Actions&logoColor=fff)](https://github.com/stnolting/riscv-gcc-prebuilt/actions/workflows/main.yml)
